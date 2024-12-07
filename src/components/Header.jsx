@@ -26,12 +26,13 @@ export const Header = () => {
     const navigate = useNavigate();
 
     return (
-        <div className='flex p-4 justify-start xl:justify-between items-center ml-5 '>
-            <div className='ml-8 '>
+        <div className='relative flex lg:p-2 xl:p-4 xl:justify-between justify-evenly items-center  ml-5 '>
+            
+            <div className='xl:ml-8 hidden lg:block '>
                 <img src={logo} className='' />
             </div>
 
-            <div className='font-chakra  w-[45%]  lg:gap-x-12 home
+            <div className='font-chakra   xl:w-[45%] lg:gap-x-6  xl:gap-x-12 home
                         hidden lg:flex
             items-center '>
 

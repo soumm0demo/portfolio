@@ -6,8 +6,8 @@ import Skills from './Skills'
 export const About = () => {
     return (
         <div className='relative w-full h-full'>
-            <div className='flex p-10 mx-auto justify-evenly  relative '>
-                <img src={about_avatr2} className='max-w-[500px] mt-20 
+            <div className='flex p-10 mx-auto justify-evenly  relative lg:gap-x-2 xl:gap-x-0' >
+                <img src={about_avatr2} className='lg:max-w-[400px] xl:max-w-[500px] mt-20 
                     transfrom translate-y-[-2rem] shadow-[10px_10px_30px_#434343] rounded-lg
                 ' />
                 <div className='max-w-[50%]  flex flex-col gap-y-8'>

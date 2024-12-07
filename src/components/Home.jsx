@@ -13,23 +13,25 @@ const Home = () => {
 
   return (
     <div className="w-full min-h-full relative ">
-      <div className="flex flex-col xl:flex-row items-center justify-evenly mt-10 
-
+      <div className="flex  flex-row items-center xl:justify-evenly justify-center md:gap-x-10 mt-10 
+                    overflow-hidden
       ">
-        <div className="flex flex-col   gap-y-[2rem] ">
+        <div className="flex flex-col   gap-y-[2rem]  min-w-[35%] ">
           <div className="flex flex-col justify-start
                 items-center  xl:mt-[-14rem] ml-[-10rem] " >
-            <div className="text-[6rem] uppercase font-semibold flex   "><img src={hiicon} className="w-[5rem]" /> <p>there </p> </div>
+            <div className="text-[4rem] uppercase font-semibold flex   "><img src={hiicon} className="w-[5rem]" /> <p>there </p> </div>
             <p className="text-[2rem] uppercase  mt-[-1rem]">i'm soummojit chattopadhyay</p>
 
           </div>
 
-          <div className="mt-2">
+          <div className="mt-2 min-w-[100%]">
           <PhraseAnimation/>
           </div>
         </div>
         {/* side bar */}
-        <div className="flex flex-col w-[30%] p-16 gap-y-14 items-center ">
+        <div className="flex flex-col w-[38%] p-4 xl:p-16 gap-y-14 items-center 
+            mr-[-4rem]
+        ">
           <div className="flex flex-col gap-y-4">
             <div className=" text-3xl xl:text-5xl font-extrabold ">Let me Introduce .. </div>
             <p className="max-w-[85%] text-xl font-medium">
